@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teh Oslo - WASGITEL</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #ffffff; color: #333; }
+    header, section, footer { padding: 20px; text-align: center; }
+    header { background: #1a8f52; color: white; }
+    button {
+      background: #ff6600; color: white; padding: 12px 20px;
+      border: none; border-radius: 6px; font-size: 16px;
+      cursor: pointer;
+    }
+    img { max-width: 100%; border-radius: 10px; margin-top: 20px; }
+    .cta { margin: 30px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Teh Oslo</h1>
+  <p>WASGITEL — Wangi, Sepet, Legi, Kentel</p>
+</header>
+
+<section>
+  <img src="https://via.placeholder.com/600x300?text=Foto+Produk+Teh+Oslo" alt="Es Teh Oslo">
+  <h2>Racikan Teh Khas Solo</h2>
+  <p>Segar, kental, dan khas. Cocok untuk jualan es teh premium tanpa perlu franchise.</p>
+  <div class="cta">
+    <button onclick="location.href='https://wa.me/6285894191600'">Pesan via WhatsApp</button>
+    <br><br>
+    <button onclick="location.href='https://shopee.co.id/teh-oslo'">Beli di Shopee</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Teh Oslo. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
